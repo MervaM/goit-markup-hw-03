@@ -20,6 +20,10 @@ body {
   width: 1200px;
 }
 
+.main-nav {
+  display: flex;
+}
+
 /*logo styles*/
 
 .logo {
@@ -51,7 +55,22 @@ header {
 
 /*site nav*/
 
+.site-nav {
+  display: flex;
+}
+
+.site-nav .nav-item {
+  margin-right: 50px;
+}
+
+.site-nav .nav-item:last-child {
+  margin-right: 0px;
+}
+
 .site-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: #000000;
   font-weight: 500;
   font-size: 14px;
@@ -64,6 +83,14 @@ header {
 }
 
 /*contacts*/
+
+.contact-nav {
+  display: flex;
+}
+
+.contacts {
+  margin-right: 50px;
+}
 
 .contact-nav list {
   color: var(--primary-text-color);
